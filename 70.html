@@ -1,0 +1,84 @@
+<html> <head>
+
+    <style src="70.css"></style>
+</head>
+<body> <center> <img src="banner.jpg" height="200px">
+  
+ 
+<br> <br> <br> <br> <br> <br>
+<div class="box">
+  <div>
+    <div id="canvasWrapper">
+    </div>
+  </div>
+  
+  <div>
+     <div class="box">
+      <div> <h2> 
+        <p>From URL</p>
+        <input id="imgURL" class="block" type="text" placeholder="Link to image" />
+        <a href="http://memeful.com/" target="_blank">Memeful.com</a>
+      </div>
+      <div>
+        <p> <h2> From Local Disk</h2> </p>
+        <input id="imgFile" type="file" accept="image/*"/>
+        <label for="imgFile" class="btn"><i class="fa fa-upload fa-fw"></i></label>
+      </div>
+    </div>
+
+
+    
+    <h3><i class="fa fa-commenting-o fa-fw" aria-hidden="true"></i><h2>  Meme Text<h2> </h3>
+    <div class="box">
+      <div>
+        <p><h3> Top Text </h3> </p>
+        <input id="textTop" type="text" class="block" placeholder="Top text" />
+      </div>
+      <div>
+        <p> <h3>  Bottom Text </h3> </p>
+        <input id="textBottom" type="text" class="block" placeholder="Bottom text" />
+      </div>
+    </div>
+
+    
+    
+    <h3><i class="fa fa-text-height fa-fw" aria-hidden="true"></i> <h2> Text Size </h2></h3>
+    <div class="box">
+      <div>
+        <p>Top Text: <span id="textSizeTopOut">10</span></p>
+        <input id="textSizeTop" type="range" min="2" max="50" step="2" />
+      </div>
+      <div>
+        <p>Bottom Text: <span id="textSizeBottomOut">10</span></p>
+        <input id="textSizeBottom" type="range" min="2" max="50" step="2" />
+      </div>
+    </div>
+
+    
+    
+    <div class="box">
+      <div>
+        <h3><i class="fa fa-eye fa-fw" aria-hidden="true"></i><h2>Preview Size </h2></h3>
+        <input id="trueSize" type="checkbox"/>
+        <label for="trueSize"><span>Show true size</span></label>
+      </div>
+      
+      
+      
+      <div>
+        <h3><i class="fa fa-download fa-fw" aria-hidden="true"></i>Export</h3>
+        <p>If the button doesn't work, right-click the image and save it</p>
+        <p>If you are one mobile, download the source image and directly upload it</p>
+        <button id="export"><h2>Export!  </h2></button>
+      </div>
+
+    </div>
+
+
+  </div>
+  <h3><i class="fa fa-picture-o fa-fw" aria-hidden="true"></i>Source Image</h3>
+  
+</div>
+<script src="70.js"></script>
+</h2> </center> </body>
+</html>
